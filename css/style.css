@@ -1,0 +1,186 @@
+body{
+    margin: 0 auto;
+    background-color: gainsboro;
+    font-size: 16px;
+}
+
+.container{
+    width: 62.5em;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding: 0.9375em;
+}
+
+.clearfix{
+    clear: both;
+}
+.main-menu{
+    background-color: #625D88;
+}
+.main-menu > ul{
+    margin: 0em;
+    padding: 0em;
+    list-style-type: none;
+}
+.main-menu > ul > li{
+    display: inline-block;
+}
+.main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1.5625em;
+    font-family: sans-serif;
+    font-size: small;
+}
+.main-menu > ul > li > a:hover{
+    background-color: #45548A;
+}
+/* dropdown menu */
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.drop > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1.8125em;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: #45548A;
+}
+.drop > li > a:hover{
+    background-color: #83B0CD;
+}
+.drop-2{
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.drop-2 > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1.4375em;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: #45548A;
+}
+.drop-2 > li > a:hover{
+    background-color:#83B0CD;
+}
+.main-menu > ul > li:hover .drop{
+    display: block;
+}
+.main-menu > ul > li:hover .drop-2{
+    display: block;
+}
+
+/* conten holder */
+.content-holder{
+    background-color: white ;
+}
+.content{
+    width: 59.375em;
+    height: auto;
+    padding: 1.5625em;
+    background-color:white;
+    float: left;
+}
+.content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+.content h2{
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.content p{
+    font-size: small;
+    font-family: sans-serif;
+    line-height: 2em;
+}
+
+.main-footer{
+    background-color: #625D88;
+    color: white;
+    padding: 1.5625em;
+    border-top-left-radius: 1.25em;
+}
+
+.footer-box > h3 >a{
+    display: block;
+    margin-bottom: 0.3125em;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-box{
+    width: 9.8956em;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+    margin-left: 4em;
+    
+}
+.footer-box > ul{
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+}
+.footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 0.3125em;
+    color: white;
+    text-decoration: none;
+}
+address p{
+    font-size: small;
+}
+.footer-box address a{
+    color: white;
+    font-size: small;
+
+}
+.copy{
+    font-family: sans-serif;
+    padding: 1.5625em;
+    text-align: center;
+    background-color: #5C1E5B;
+    color: white;
+    border-bottom-right-radius: 1.25em;
+}
+.copy p{
+    margin: 0em;
+}
+
+/* .contact-page */
+
+.banner > iframe{
+    width: 100%;
+    height: 26.0413em;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 62.5em;
+  position: relative;
+  margin: auto;
+  height:5vm;
+}
